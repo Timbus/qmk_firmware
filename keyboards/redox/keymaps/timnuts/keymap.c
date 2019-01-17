@@ -23,10 +23,10 @@ enum custom_keycodes {
 #define KC_SHRT LSFT_T(KC_ENTER)
 #define KC_CTRT LCTL_T(KC_ENTER)
 
-#define KC_CTLZ LCTL_T(KC_Z)
-#define KC_CTLX LCTL_T(KC_X)
-#define KC_CTLC LCTL_T(KC_C)
-#define KC_CTLV LCTL_T(KC_V)
+#define KC_CTLZ LCTL(KC_Z)
+#define KC_CTLX LCTL(KC_X)
+#define KC_CTLC LCTL(KC_C)
+#define KC_CTLV LCTL(KC_V)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
