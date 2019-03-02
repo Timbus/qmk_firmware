@@ -22,18 +22,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define USE_I2C
 
 /* Select hand configuration */
-#define MASTER_LEFT
-// #define MASTER_RIGHT
+// #define MASTER_LEFT
+#define MASTER_RIGHT
 // #define EE_HANDS
 
-#undef RGBLED_NUM
-#define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 14
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
+// #undef RGBLED_NUM
+// #define RGBLIGHT_ANIMATIONS
+// #define RGBLED_NUM 14
+// #define RGBLIGHT_HUE_STEP 8
+// #define RGBLIGHT_SAT_STEP 8
+// #define RGBLIGHT_VAL_STEP 8
 
 #define PERMISSIVE_HOLD
 #define PREVENT_STUCK_MODIFIERS
-#define TAPPING_TERM 200
+#define TAPPING_TERM 300
 #define TAPPING_TOGGLE 2
